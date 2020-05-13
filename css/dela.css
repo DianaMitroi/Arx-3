@@ -7,6 +7,15 @@ h3, h4, h6 {
     font-family: "Source Serif Pro", serif;
 }
 
+.card-header { 
+    background-color: #007fa4;
+}
+
+.btn.btn-link {
+    font-size: 1.4rem;
+    color: cornsilk;
+}
+
 ul>li:not(:first-of-type) {
     margin-top: 1rem;
 }
