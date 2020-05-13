@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" shrink-to-fit="no"/>
+	
+	<title>DelaNl-remotely</title>
+
+	 <link rel="stylesheet" href="css/bootstrap.css" type="text/css"/>
+	 <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&family=Source+Serif+Pro:wght@600&display=swap" rel="stylesheet">
+	 <link rel="stylesheet" href="css/dela.css">
+</head>
+
+<body>
+	<header class="container-fluid p-0">
+		<img src="image/header.png" width="100%"/>
+	</header>
+
+	<section class="container-fluid">
+		<div class="row">
+			<div class="col-md-5 mt-md-4" style="max-height: 750px !important;">
+				<img src="image/videocall.png" usemap="#image-map" width="100%">
+					<map name="image-map">
+    					<area class="d-inline-block" target="_self" alt="" title="End session" href="videosessionended.html" coords="694,760,631,819" shape="rect">
+					</map>
+			</div>
+			<div class="col-md-7 mt-md-4"  style="max-height: 700px !important; overflow-y: auto; border: 1px solid darkslategray;">
+				<h3 class="text-right pt-md-3">The Farewell Meeting</h3>
+
+				<div class="accordion mt-md-4" id="accordionTwo">
+					<div class="card">
+					  	<div class="card-header" id="headingOne">
+							<h2 class="mb-0">
+						  	<button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="false" aria-controls="collapse1">
+								Funeral Plan
+						  	</button>
+							</h2>
+					  	</div>
+					  	<div id="collapse1" class="collapse" aria-labelledby="headingOne" data-parent="#accordionTwo">
+							<div class="card-body">
+						  		<ul class="list-unstyled">
+							 		<li class="pl-md-3">
+								 		<h6>Funeral</h6>
+								 		<div class="form-check form-check-inline">
+											 <label class="form-check-label" for="fnrlT1"><input class="form-check-input" type="radio" id="fnrlT1" name="fnl">Burial</label>
+										</div>
+								 		<div class="form-check form-check-inline">
+											 <label class="form-check-label" for="fnrlT2"><input class="form-check-input" type="radio" id="fnrlT2" name="fnl">Cremation</label>
+										</div>
+								 		<div class="form-check form-check-inline">
+											 <label class="form-check-label" for="fnrlT3"><input class="form-check-input" type="radio" id="fnrlT3" name="fnl">Nature burial</label>
+										</div>
+							 		</li>
+							 		<li class="pl-md-3">
+								 		<h6>Time of funeral</h6>
+								 		<div>
+								  			<input type="time">
+								 		</div>
+							 		</li>
+							 		<li class="pl-md-3">
+										<h6>Location of the farewell meeting</h6>
+										<div>	
+											<textarea rows="2" cols="60" id="loc"></textarea>
+										</div>
+									</li>  
+									<li class="pl-md-3">
+										<h6>Funeral printing</h6>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlP1"><input class="form-check-input" type="checkbox" id="fnrlP1">Mourning letter</label>
+										</div>
+										<div>
+											<textarea rows="2" cols="60" id="mrnltr"></textarea>
+										</div>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlP2"><input class="form-check-input" type="checkbox" id="fnrlP2">Mourning card</label>
+										</div>
+										<div>
+											<textarea rows="2" cols="60" id="mrncd"></textarea>
+										</div>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlP3"><input class="form-check-input" type="checkbox" id="fnrlP3">Mourning advertisement</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="mrnad"></textarea>
+										</div>
+									</li> 
+									<li class="pl-md-3">
+										<h6>Funeral casket</h6>
+										<div>
+											<textarea rows="2" cols="60" id="csk"></textarea>
+										</div>
+									</li>  
+									<li class="pl-md-3">
+										<h6>Flowers</h6>
+										<div>
+											<textarea rows="2" cols="60" id="flw"></textarea>
+										</div>
+									</li> 
+									<li class="pl-md-3">
+										<h6>Transport</h6>
+										<div>
+											<textarea rows="2" cols="60" id="trsp"></textarea>
+										</div>
+									</li>
+									<li class="pl-md-3">
+										<h6>Farewell ceremony</h6>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlC1"><input class="form-check-input" type="checkbox" id="fnrlC1">Online/Live transmission</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="trm"></textarea>
+										</div>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlC2"><input class="form-check-input" type="checkbox" id="fnrlC2">Music</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="msc"></textarea>
+										</div>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlC3"><input class="form-check-input" type="checkbox" id="fnrlC3">Photo/Video</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="phv"></textarea>
+										</div>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlC4"><input class="form-check-input" type="checkbox" id="fnrlC4">Speeches</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="spc"></textarea>
+										</div>
+									</li>
+									<li class="pl-md-3">
+										<h6>Condolences &amp; being together afterwards</h6>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlCd1"><input class="form-check-input" type="checkbox" id="fnrlCd1">Video meeting</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="vmtg"></textarea>
+										</div>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlCd2"><input class="form-check-input" type="checkbox" id="fnrlCd2">Message for the remote participants</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="mssg"></textarea>
+										</div>
+									</li> 
+									<li class="pl-md-3">
+										<h6>Rememberance products</h6>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlRp1"><input class="form-check-input" type="checkbox" id="fnrlRp1">Urn</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="urn"></textarea>
+										</div>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlRp2"><input class="form-check-input" type="checkbox" id="fnrlRp2">Jewelry</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="jwl"></textarea>
+										</div>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlRp3"><input class="form-check-input" type="checkbox" id="fnrlRp3">Fingerprint</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="fgp"></textarea>
+										</div>
+									</li>      
+						  		</ul>
+							</div>
+					  	</div>
+					</div>
+					<div class="card">
+					  	<div class="card-header" id="headingTwo">
+							<h2 class="mb-0">
+						  		<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+									After the Funeral
+						  		</button>
+							</h2>
+					  	</div>
+					  	<div id="collapse2" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionTwo">
+							<div class="card-body">
+								<ul class="list-unstyled">
+									<li class="pl-md-3">
+										<h6>Ash destination or gravestone</h6>
+										<div>
+											<textarea rows="2" cols="60" id="ash"></textarea>
+										</div>
+									</li> 
+									<li class="pl-md-3">
+										<h6>Remember</h6>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlRm1"><input class="form-check-input" type="checkbox" id="fnrlRm1">Light evenings (video)</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="lev"></textarea>
+										</div>
+										<div class="form-check form-check-inline">
+											<label class="form-check-label" for="fnrlRm2"><input class="form-check-input" type="checkbox" id="fnrlRm2">Rememberance meetings (video)</label>
+										</div>
+										<div>	
+											<textarea rows="2" cols="60" id="rmtg"></textarea>
+										</div>
+									</li> 
+									<li class="pl-md-3">
+										<h6>Rememberance products</h6>
+										<div>	
+											<textarea rows="2" cols="60" id="rmpdc"></textarea>
+										</div>
+									</li>
+									<li class="pl-md-3">
+										<h6>Survivor care</h6>
+										<div>	
+											<textarea rows="2" cols="60" id="srvc"></textarea>
+										</div>
+									</li> 
+									<li class="pl-md-3">
+										<h6>Arrange after the funeral</h6>
+										<div>	
+											<textarea rows="2" cols="60" id="aftf"></textarea>
+										</div>
+									</li>        
+								</ul>
+							</div>
+					  	</div>
+					</div>
+					<div class="card">
+					  	<div class="card-header" id="headingThree">
+							<h2 class="mb-0">
+						  		<button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+									Funeral Expenses
+						  		</button>
+							</h2>
+					  	</div>
+					  	<div id="collapse3" class="collapse" aria-labelledby="headingThree" data-parent="#accordionTwo">
+							<div class="card-body">
+								<div>	
+									<textarea rows="3" cols="60" id="exp" placeholder=""></textarea>
+								</div>
+							</div>
+					  	</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</section>
+
+	<script src="js/jquery-3.4.1.min.js"></script>
+	<script src="js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
+
+
