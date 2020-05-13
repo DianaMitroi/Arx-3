@@ -1,0 +1,98 @@
+body {
+    font-family: "Source Sans Pro", sans-serif;
+}
+
+h3, h4, h6 {
+    color: #007fa4;
+    font-family: "Source Serif Pro", serif;
+}
+
+.card-header { 
+    background-color: #007fa4;
+}
+
+.btn.btn-link {
+    font-size: 1.4rem;
+    color: cornsilk;
+}
+
+ul>li:not(:first-of-type) {
+    margin-top: 1rem;
+}
+
+textarea {
+    width: 100%;
+    overflow-y: auto;
+    overflow-wrap: normal;
+}
+
+input[type=time] {
+    width: 150px;
+}
+
+input[type=text] {
+    width: 100%;
+}
+
+area{
+    position: absolute;
+    bottom: 10px;
+    right: 25px;
+    width: 80px;
+    height: 80px;
+}
+
+area[role=button] {
+    position: absolute;
+    bottom: 123px;
+    right: 192px;
+    width: 250px;
+    height: 160px;
+}
+
+header.h-25 {
+    height: 350px !important;
+    background-image: url("../image/memory-header.png");
+    background-position: center;
+    margin-bottom: 400px;
+}
+
+
+footer.h-25 {
+    height: 200px !important;
+    background-image: url("../image/memory-footer.png");
+    background-position: center;
+    margin-top: 5rem;
+}
+
+.card-title {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 3rem;
+}
+.card-text {
+    font-size: 2rem;
+}
+
+.frame {
+    padding: 2rem;
+    border: solid 1rem darkslategrey;
+    border-radius: 25px;
+}
+
+.btn.btn-primary {
+    width: 200px;
+    line-height: 3rem;
+    background-color: darkslategrey;
+    color: floralwhite;
+    font-weight: bold;
+    border: gray;
+}
+
+.btn.btn-secondary {
+    line-height: 3rem;
+    width: 250px;
+    background-color: #8d471f;
+    color: honeydew;
+    font-weight: bold;
+    border: brown;
+}
